@@ -1,0 +1,130 @@
+{
+  "index.html": {
+    "resources": [
+      "js/mui.min.js",
+      "css/mui.min.css",
+      "fonts/mui.ttf",
+      "sub.html",
+      "img/2.jpg",
+      "img/1.jpg",
+      "img/4.jpg",
+      "img/3.jpg",
+      "img/5.jpg",
+      "img/7.jpg",
+      "img/sj3.jpg",
+      "img/sj4.jpg",
+      "img/sj1.jpg",
+      "img/sj2.jpg",
+      "img/sjlist1.jpg",
+      "img/sjlist3.jpg",
+      "img/sjlist4.jpg",
+      "img/sjlist2.jpg",
+      "css/index.css",
+      "logo.png",
+      "logo.jpg",
+      "search.html"
+    ],
+    "refer": [
+      "sub.html",
+      "html/search.html",
+      "html/contect.html",
+      "html/setting.html",
+      "contact.html",
+      "setting.html",
+      "search.html",
+      "index-menu.html"
+    ]
+  },
+  "html/search.html": {
+    "resources": [
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css",
+      "img/sjlist1.jpg",
+      "img/sjlist2.jpg",
+      "img/sjlist3.jpg",
+      "img/sjlist4.jpg"
+    ],
+    "refer": [
+      "index.html",
+      "html/contect.html",
+      "html/setting.html"
+    ]
+  },
+  "html/setting.html": {
+    "resources": [
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css"
+    ],
+    "refer": [
+      "index.html"
+    ]
+  },
+  "html/contect.html": {
+    "resources": [
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css"
+    ],
+    "refer": [
+      "html/setting.html",
+      "index.html"
+    ]
+  },
+  "sub.html": {
+    "resources": [
+      "img/sj3.jpg",
+      "img/sjlist3.jpg",
+      "img/sjlist4.jpg",
+      "img/sj4.jpg",
+      "img/sjlist1.jpg",
+      "img/sj1.jpg",
+      "img/sj2.jpg",
+      "img/sjlist2.jpg",
+      "js/mui.min.js",
+      "css/mui.min.css"
+    ],
+    "refer": []
+  },
+  "contact.html": {
+    "resources": [
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css",
+      "img/aboutUs.jpg"
+    ],
+    "refer": []
+  },
+  "search.html": {
+    "resources": [
+      "js/mui.min.js",
+      "img/sjlist3.jpg",
+      "img/sjlist4.jpg",
+      "img/sjlist1.jpg",
+      "img/sjlist2.jpg"
+    ],
+    "refer": []
+  },
+  "setting.html": {
+    "resources": [
+      "js/mui.min.js",
+      "css/feedback.css",
+      "js/feedback.js",
+      "js/mui.view.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css",
+      "logo.jpg"
+    ],
+    "refer": []
+  },
+  "index-menu.html": {
+    "resources": [
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css",
+      "logo.jpg"
+    ],
+    "refer": []
+  }
+}
