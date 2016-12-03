@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+	</head>
+
+	<body>
+            <!-- 主页面内容容器 -->
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll ">
+                    <!-- 主界面具体展示内容 -->
+                    <!--图片轮播图-->
+                    <div class="mui-slider index-slider">
+					  <div class="mui-slider-group mui-slider-loop">
+					    <!--支持循环，需要重复图片节点-->
+					    <div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="img/sj4.jpg" /></a></div>
+					    <div class="mui-slider-item"><a href="#"><img src="img/sj1.jpg" /></a></div>
+					    <div class="mui-slider-item"><a href="#"><img src="img/sj2.jpg" /></a></div>
+					    <div class="mui-slider-item"><a href="#"><img src="img/sj3.jpg" /></a></div>
+					    <div class="mui-slider-item"><a href="#"><img src="img/sj4.jpg" /></a></div>
+					    <!--支持循环，需要重复图片节点-->
+					    <div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="img/sj1.jpg" /></a></div>
+					  </div>
+					  <!--轮播下面的小圆点-->
+					  <div class="mui-slider-indicator">
+						    <div class="mui-indicator mui-active"></div>
+						    <div class="mui-indicator"></div>
+						    <div class="mui-indicator"></div>
+						    <div class="mui-indicator"></div>
+					  </div>
+					</div>
+					
+					
+			    <div class="mui-row">
+			        <div data-href='taoyao.html' class="mui-col-xs-6 mui-table-view"  style="padding-top: 10px;">
+			            <li class="mui-table-view-cell">
+			            	<img style="width: 100%;" src="img/sjlist1.jpg" alt="#" />
+			            	桃夭
+			            	<p>逃之夭夭，灼灼其华</p>
+			            </li>
+			        </div>
+			        <div data-href='luming.html' class="mui-col-xs-6 mui-table-view"  style="padding-top: 10px;">
+			            <li class="mui-table-view-cell">
+			            	<img style="width: 100%;" src="img/sjlist2.jpg" alt="#" />
+			            	鹿鸣
+			            	<p>呦呦鹿鸣，食野之苹</p>
+			            </li>
+			        </div>
+			        <div data-href='caiwei.html' class="mui-col-xs-6 mui-table-view"  style="padding-bottom: 10px;">
+			            <li class="mui-table-view-cell">
+			            	<img style="width: 100%;" src="img/sjlist3.jpg" alt="#" />
+			            	采薇
+			            	<p>昔我往矣，杨柳依依</p>
+			            </li>
+			        </div>
+			        <div data-href='guanju.html' class="mui-col-xs-6 mui-table-view" style="padding-bottom: 10px;">
+			            <li class="mui-table-view-cell">
+			            	<img style="width: 100%;" src="img/sjlist4.jpg" alt="#" />
+			            	关雎
+			            	<p>关关雎鸠，在河之洲</p>
+			            </li>
+			        </div>
+			    </div>
+                </div>
+                
+                
+            </div>
+       	 <div class="mui-off-canvas-backdrop"></div>
+        </div>
+        
+    </div>
+	
+<script src="js/mui.min.js"></script>
+<script type="text/javascript">
+	mui.init()
+</script>
+<script>
+mui.plusReady(function (){
+	var aList = document.getElementsByTagName('li');
+	aList[0].addEventListener('tap',function(){
+		mui.openWindow({
+			url : 'html/taoyao.html',
+			id  : 'taoyao.html'
+		})
+	})
+	aList[1].addEventListener('tap',function(){
+		mui.openWindow({
+			url : 'html/luming.html',
+			id  : 'luming.html'
+		})
+	})
+	aList[2].addEventListener('tap',function(){
+		mui.openWindow({
+			url : 'html/caiwei.html',
+			id  : 'caiwei.html'
+		})
+	})
+	aList[3].addEventListener('tap',function(){
+		mui.openWindow({
+			url : 'html/guanju.html',
+			id  : 'guanju.html'
+		})
+	})
+})
+//获得slider插件对象
+var gallery = mui('.mui-slider');
+gallery.slider({
+  interval:5000//自动轮播周期，若为0则不自动播放，默认为0；
+});
+
+</script>
+	</body>
+
+</html>

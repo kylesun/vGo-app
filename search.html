@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<style type="text/css">
+			.mui-card-footer {
+				padding: 10px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="mui-content">
+			<div class="mui-card">
+				<!--页眉，放置标题-->
+				<!--内容区-->
+				<div class="mui-card-content">
+					<img src="img/sjlist1.jpg" style="width: 100%;margin-bottom: -7px;" />
+				</div>
+				<!--页脚，放置补充信息或支持的操作-->
+				<div class="mui-card-footer">
+						桃夭
+						<p>逃之夭夭，灼灼其华</p>
+				</div>
+			</div>
+			<div class="mui-card">
+				<!--页眉，放置标题-->
+				<!--内容区-->
+				<div class="mui-card-content">
+					<img src="img/sjlist2.jpg" style="width: 100%;margin-bottom: -7px;" />
+				</div>
+				<!--页脚，放置补充信息或支持的操作-->
+				<div class="mui-card-footer">
+						鹿鸣
+						<p>呦呦鹿鸣，食野之苹</p>
+				</div>
+			</div>
+			<div class="mui-card">
+				<!--页眉，放置标题-->
+				<!--内容区-->
+				<div class="mui-card-content">
+					<img src="img/sjlist3.jpg" style="width: 100%;margin-bottom: -7px;" />
+				</div>
+				<!--页脚，放置补充信息或支持的操作-->
+				<div class="mui-card-footer">
+						采薇
+						<p>昔我往矣，杨柳依依</p>
+				</div>
+			</div>
+			<div class="mui-card">
+				<!--页眉，放置标题-->
+				<!--内容区-->
+				<div class="mui-card-content">
+					<img src="img/sjlist4.jpg" style="width: 100%;margin-bottom: -7px;" />
+				</div>
+				<!--页脚，放置补充信息或支持的操作-->
+				<div class="mui-card-footer">
+						关雎
+						<p>关关雎鸠，在河之洲</p>
+				</div>
+			</div>
+		</div>
+<script src="js/mui.min.js"></script>
+<script type="text/javascript">
+	mui.init()
+</script>
+<script>
+mui.plusReady(function(){
+	var aList = document.getElementsByClassName('mui-card');
+	aList[0].addEventListener("tap",function(){
+		mui.openWindow({
+			url : 'html/taoyao.html',
+			id  : 'taoyao.html',
+			style : {
+				top : '45px'
+			}
+				
+		})
+	})
+	aList[1].addEventListener("tap",function(){
+		mui.openWindow({
+			url : 'html/luming.html',
+			id  : 'luming.html',
+			style : {
+				top : '45px'
+			}
+				
+		})
+	})
+	aList[2].addEventListener("tap",function(){
+		mui.openWindow({
+			url : 'html/caiwei.html',
+			id  : 'caiwei.html',
+			style : {
+				top : '45px'
+			}
+				
+		})
+	})
+	aList[3].addEventListener("tap",function(){
+		mui.openWindow({
+			url : 'html/guanju.html',
+			id  : 'guanju.html',
+			style : {
+				top : '45px'
+			}
+				
+		})
+	})
+})
+</script>
+	</body>
+
+</html>
